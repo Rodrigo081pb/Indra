@@ -1,0 +1,109 @@
+.title {
+  left: 0;
+  position: fixed; /* Fixa a navegação na parte superior */
+  top: 0; /* Coloca a navegação no topo da janela */
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.title > h1 {
+  -webkit-text-stroke-width: 2px; /* largura da borda */
+  -webkit-text-stroke-color: white; /* cor da borda */
+  color: transparent; /* torna o texto transparente */
+  font-size: 70px; /* Tamanho da fonte do link */
+  font-family: "Kode Mono", monospace;
+  margin-left: 100px;
+}
+
+nav {
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  right: 0; /* Posiciona a navegação no canto superior direito */
+  width: auto; /* ou você pode definir uma largura específica se desejar */
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+li:not(:first-child) {
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* altura total da janela do navegador */
+  border: solid 1px white;
+}
+
+.card {
+  width: 400px; /* largura do card */
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* sombra */
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  height: 200px; /* altura da imagem */
+  background-image: url('https://via.placeholder.com/400x200'); /* imagem de exemplo */
+  background-size: cover;
+  background-position: center;
+}
+
+.card-content {
+  padding: 20px; /* espaçamento interno */
+  flex-grow: 1;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.card-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+}

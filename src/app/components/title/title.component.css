@@ -1,0 +1,17 @@
+.title {
+  left: 0;
+  position: fixed; /* Fixa a navegação na parte superior */
+  top: 0; /* Coloca a navegação no topo da janela */
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.title > h1 {
+  -webkit-text-stroke-width: 2px; /* largura da borda */
+  -webkit-text-stroke-color: white; /* cor da borda */
+  color: transparent; /* torna o texto transparente */
+  font-size: 70px; /* Tamanho da fonte do link */
+  font-family: "Kode Mono", monospace;
+  margin-left: 100px;
+}

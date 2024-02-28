@@ -6,7 +6,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 45px; /* Distância do topo da página */
   display: flex;
   justify-content: space-between; /* Distribui os cards uniformemente */
 }
@@ -61,40 +60,3 @@ h1 {
   height: 160px;
   width: 500px;
 }
-
-nav {
-  left: 0;
-  position: fixed; /* Fixa a navegação na parte superior */
-  top: 0; /* Coloca a navegação no topo da janela */
-  width: 100%;
-  text-align: center; /* Centraliza o conteúdo horizontalmente */
-}
-
-nav ul {
-  list-style: none; /* Remove os marcadores de lista */
-  padding: 0; /* Remove o preenchimento padrão da lista */
-  margin-top: 15px;
-  margin-bottom: 20px;
-}
-
-nav ul li {
-  display: inline-block; /* Exibe os itens de lista em linha */
-  margin-right: 20px; /* Espaçamento entre os itens de lista */
-}
-
-nav ul li:last-child {
-  margin-right: 0; /* Remove o espaçamento à direita do último item de lista */
-}
-
-nav ul li h1 {
-  -webkit-text-stroke-width: 2px; /* largura da borda */
-  -webkit-text-stroke-color: white; /* cor da borda */
-  color: transparent; /* torna o texto transparente */
-  text-decoration: none; /* Remove a decoração de texto do link */
-  font-size: 70px; /* Tamanho da fonte do link */
-  font-weight: bold; /* Peso da fonte do link */
-  padding: 10px 19px; /* Preenchimento interno do link */
-  font-family: "Kode Mono", monospace;
-}
-
-

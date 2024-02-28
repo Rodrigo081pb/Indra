@@ -1,9 +1,4 @@
-<nav>
-  <ul>
-    <li><h1>Indra</h1></li>
-  </ul>
-</nav>
-
+<app-title></app-title>
 <div class="cards-container">
   <div class="card">
     <div class="services">
@@ -11,7 +6,7 @@
       <div class="content__cover">
         <img src="{{ mercadoImg }}" alt="" srcset="">
       </div>
-      <button type="button" class="btn">Acessar</button>
+      <button type="button" class="btn" (click)="acessarShop()">Acessar mercado</button>
     </div>
   </div>
   <div class="card">
@@ -20,7 +15,7 @@
       <div class="content__cover">
         <img src="{{ quitarImg }}" alt="" srcset="">
       </div>
-      <button type="button" class="btn">Acessar</button>
+      <button type="button" class="btn" (click)="acessarContas()">Acessar Contas</button>
     </div>
   </div>
   <div class="card">
@@ -29,7 +24,7 @@
       <div class="content__cover">
         <img src="{{ farmaciaImg }}" alt="" srcset="">
       </div>
-      <button type="button" class="btn">Acessar</button>
+      <button type="button" class="btn" (click)="acessarFarma()">Acessar farmacia</button>
     </div>
   </div>
 </div>
